@@ -9,7 +9,11 @@
     </b-list-group>
 
     <div class="overflow-auto jvue-pager">
-      <b-pagination-nav :link-gen="linkGen" :number-of-pages="10" use-router></b-pagination-nav>
+      <b-pagination-nav
+        :link-gen="linkGen"
+        :number-of-pages="10"
+        use-router
+      ></b-pagination-nav>
     </div>
   </div>
 </template>
@@ -20,13 +24,13 @@ export default {
   methods: {
     linkGen(pageNum: number) {
       return pageNum === 1 ? '?' : `?page=${pageNum}`
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style scoped>
-.jvue-pager{
+.jvue-pager {
   margin-top: 10px;
 }
 </style>
