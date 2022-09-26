@@ -1,17 +1,17 @@
 <template>
   <b-container fluid="sm">
-    <Header />
+    <DefaultHeader />
     <Nuxt />
-    <Footer />
+    <DefaultFooter />
   </b-container>
 </template>
 
 <script lang="ts">
-import Header from '~/components/default/Header.vue'
-import Footer from '~/components/default/Footer.vue'
+import DefaultHeader from '~/components/default/DefaultHeader.vue'
+import DefaultFooter from '~/components/default/DefaultFooter.vue'
 
 export default {
   name: 'DefaultLayout',
-  components: { Footer, Header },
+  components: { DefaultFooter, DefaultHeader },
 }
 </script>
