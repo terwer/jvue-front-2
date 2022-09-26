@@ -59,7 +59,7 @@
     "ts-jest": "^27.1.1",
     "vue-jest": "^3.0.4"
   },
-  "packageManager": "yarn@1.22.19",
+  "packageManager": "yarn",
   "engines": {
     "node": ">=14.19 <=16.x",
     "yarn": "=1.22.19"
