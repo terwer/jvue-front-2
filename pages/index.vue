@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import HomePosts from '~/components/default/HomePosts.vue'
+import HomePosts from '~/components/default/DefaultHomePosts.vue'
 
 export default Vue.extend({
   name: 'IndexPage',

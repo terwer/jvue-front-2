@@ -20,7 +20,7 @@
 
 <script lang="ts">
 export default {
-  name: 'HomePosts',
+  name: 'DefaultHomePosts',
   methods: {
     linkGen(pageNum: number) {
       return pageNum === 1 ? '?' : `?page=${pageNum}`
